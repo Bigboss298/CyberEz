@@ -153,3 +153,373 @@
      color: rgba(255, 255, 255, 1);
 
 }
+
+
+
+/* ******************************* Our Service ************************* */
+.service {
+     position: absolute;
+     width: 1440px;
+     height: 819px;
+     left: calc(50% - 1440px/2);
+     top: 1593px;
+     background: #171717;
+}
+
+.service .text {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+     position: absolute;
+     width: 761px;
+     height: 242px;
+     left: calc(50% - 761px/2 - 0.5px);
+     top: 80px;
+}
+
+.service .text small {
+     width: 761px;
+     height: 24px;
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     text-align: center;
+     color: #3ED5DD;
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+}
+
+.service .text h2 {
+     font-family: 'Titillium Web';
+     font-size: 67px;
+     font-weight: 600;
+     line-height: 70px;
+     text-align: center;
+     color: rgba(255, 255, 255, 1)
+}
+
+.service .text p {
+     width: 761px;
+     height: 46px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     text-align: center;
+     color: #FFFFFF;
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+}
+
+.cybersec {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 382px;
+     height: 245px;
+     left: 141px;
+     top: 434px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     /* Accent 1 */
+     border: 2px solid #3ED5DD;
+     border-radius: 16px;
+
+}
+
+.cybersecicon {
+     box-sizing: border-box;
+     position: absolute;
+     width: 80px;
+     height: 80px;
+     left: calc(50% - 80px/2 - 388px);
+     top: 394px;
+     background: linear-gradient(298.54deg, #0A767B -7.7%, #00A7D6 97.12%);
+     border: 1px solid #3ED5DD;
+     border-radius: 40px;
+}
+
+.subcyber {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 270px;
+     height: 149px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.cybertext1 {
+     /* Cyber security Assessment */
+
+     width: 270px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.cybertext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis. */
+
+     width: 270px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.intru {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 348px;
+     height: 222px;
+     left: 585px;
+     top: 457px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+
+}
+
+.subintru {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 248px;
+     height: 126px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+
+}
+
+.intrutext1 {
+     /* Intrusion Detection and Prevention */
+
+     width: 248px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.intrutext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+
+     width: 248px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+}
+
+.inci {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+     position: absolute;
+     width: 348px;
+     height: 222px;
+     left: 995px;
+     top: 457px;
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     backdrop-filter: blur(25px);
+     border-radius: 16px;
+}
+
+.subinci {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 248px;
+     height: 126px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.incitext1 {
+     /* Incident Response and Recovery */
+
+     width: 248px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.incitext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+
+     width: 248px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+
+}
