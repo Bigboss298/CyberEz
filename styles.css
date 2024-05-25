@@ -467,7 +467,7 @@
      top: -40px;
      height: 80px;
      left: 40%;
-     border-radius: 40px; 
+     border-radius: 40px;
 
 }
 
@@ -1056,132 +1056,7 @@
 
 
 
-
-
-
-.ourgoals {
-     /* Our Goals */
-
-     position: absolute;
-     width: 1440px;
-     height: 761px;
-     left: 0px;
-     top: 3452px;
-
-     /* BG Dark */
-     background: #171717;
-
-}
-
-.ourgoals .inner1 {
-     /* text */
-
-     /* Auto layout */
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 0px;
-     gap: 24px;
-
-     position: absolute;
-     width: 761px;
-     height: 242px;
-     left: calc(50% - 761px/2 - 0.5px);
-     top: 80px;
-
-
-}
-
-.inner1 .inner11 {
-     /* OUR GOALS */
-
-     width: 761px;
-     height: 24px;
-
-     /* Headings/H6 600 */
-     font-family: 'Titillium Web';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 21px;
-     line-height: 24px;
-     /* identical to box height, or 114% */
-     text-align: center;
-
-     /* Accent 1 */
-     color: #3ED5DD;
-
-
-     /* Inside auto layout */
-     flex: none;
-     order: 0;
-     align-self: stretch;
-     flex-grow: 0;
-
-}
-
-.inner1 .inner12 {
-     /* Securing Your Digital World Together */
-
-     width: 761px;
-     height: 140px;
-
-     /* Headings/H2 600 */
-     font-family: 'Titillium Web';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 67px;
-     line-height: 70px;
-     /* or 104% */
-     text-align: center;
-     text-transform: capitalize;
-
-     /* White */
-     color: #FFFFFF;
-
-
-     /* Inside auto layout */
-     flex: none;
-     order: 1;
-     align-self: stretch;
-     flex-grow: 0;
-
-}
-
-.inner13 {
-     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis accumsan euismod. Maecenas sed est mollis, convallis nisi convallis, imperdiet massa. */
-
-     width: 761px;
-     height: 46px;
-
-     /* Main Text/P1 400 */
-     font-family: 'Poppins';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 23px;
-     /* or 144% */
-     text-align: center;
-
-     /* White */
-     color: #FFFFFF;
-
-
-     /* Inside auto layout */
-     flex: none;
-     order: 1;
-     align-self: stretch;
-     flex-grow: 0;
-
-}
-
-
-
-
-
-
-
-
-/* *******************************Testimonials****************************** */
+/* *******************************Section 3****************************** */
 .sect3 {
      position: absolute;
      width: 1440px;
@@ -1189,9 +1064,9 @@
      left: 0px;
      top: 4213px;
      background: #171717;
-   }
-   
-   /* .vec {
+}
+
+/* .vec {
      position: absolute;
      width: 725.47px;
      height: 487.2px;
@@ -1201,22 +1076,22 @@
      background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
      transform: rotate(-90deg);
    } */
-   
-   .text {
+
+.text {
      display: flex;
      flex-direction: column;
      align-items: center;
      padding: 0px;
      gap: 24px;
-   
+
      position: absolute;
      width: 711px;
      height: 242px;
      left: calc(50% - 711px / 2 - 0.5px);
      top: 80px;
-   }
-   
-   .start {
+}
+
+.start {
      display: flex;
      flex-direction: column;
      align-items: flex-start;
@@ -1224,9 +1099,9 @@
      gap: 8px;
      width: 711px;
      height: 172px;
-   }
-   
-   .price {
+}
+
+.price {
      width: 711px;
      height: 24px;
      font-family: "Titillium Web";
@@ -1237,9 +1112,9 @@
      /* identical to box height, or 114% */
      text-align: center;
      color: #3ed5dd;
-   }
-   
-   .using {
+}
+
+.using {
      width: 711px;
      height: 140px;
      font-family: "Titillium Web";
@@ -1250,15 +1125,15 @@
      /* or 104% */
      text-align: center;
      text-transform: capitalize;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .dolor {
+}
+
+.dolor {
      width: 711px;
      height: 46px;
-   
+
      font-family: "Poppins";
      font-style: normal;
      font-weight: 400;
@@ -1269,43 +1144,41 @@
      color: #ffffff;
      padding-top: 40px;
      margin-top: 60px;
-   }
-   
-   .card {
+}
+
+.card {
      display: flex;
      flex-direction: column;
      align-items: center;
      padding: 32px;
      gap: 24px;
-   
+
      position: absolute;
      width: 388px;
      height: 549px;
      left: 526px;
      top: 402px;
-   
+
      /* Colour Card */
-     background: linear-gradient(
-       96.79deg,
-       #171717 -62.94%,
-       #323335 -62.92%,
-       rgba(90, 90, 90, 0) 54.42%,
-       #171717 174.24%
-     );
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
      /* Background Blur */
      backdrop-filter: blur(25px);
      /* Note: backdrop-filter has minimal browser support */
      border-radius: 16px;
      padding-top: 40px;
      margin-top: 40px;
-   }
-   
-   .stand {
+}
+
+.stand {
      /* STANDARD */
-   
+
      width: 324px;
      height: 24px;
-   
+
      /* Headings/H6 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1317,12 +1190,12 @@
      align-items: center;
      text-align: center;
      color: #3ed5dd;
-   }
-   
-   .amet {
+}
+
+.amet {
      width: 324px;
      height: 69px;
-   
+
      /* Main Text/P1 400 */
      font-family: "Poppins";
      font-style: normal;
@@ -1333,35 +1206,35 @@
      display: flex;
      align-items: center;
      text-align: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .amt {
+}
+
+.amt {
      display: flex;
      flex-direction: row;
      justify-content: center;
      align-items: center;
      padding: 16px 24px;
      gap: 16px;
-   
+
      width: 324px;
      height: 80px;
-   
+
      /* Colour Button */
      background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
      /* Drop Shadow */
      box-shadow: 0px 0px 10px rgba(62, 213, 221, 0.56);
      border-radius: 50px;
-   }
-   
-   .money {
+}
+
+.money {
      /* $199 */
-   
+
      width: 86px;
      height: 48px;
-   
+
      /* Headings/H4 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1371,27 +1244,27 @@
      /* identical to box height, or 126% */
      display: flex;
      align-items: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .vec5 {
+}
+
+.vec5 {
      /* Vector 5 */
-   
+
      width: 0px;
      height: 22px;
-   
+
      /* White */
      border: 1px solid #ffffff;
-   }
-   
-   .month {
+}
+
+.month {
      /* /per month */
-   
+
      width: 78px;
      height: 24px;
-   
+
      /* Headings/H7 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1401,14 +1274,14 @@
      /* identical to box height, or 150% */
      display: flex;
      align-items: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .orderlist {
+}
+
+.orderlist {
      /* tx */
-   
+
      /* Auto layout */
      display: flex;
      flex-direction: column;
@@ -1416,28 +1289,28 @@
      align-items: flex-start;
      padding: 0px;
      gap: 16px;
-   
+
      width: 324px;
      height: 144px;
-   }
-   
-   .every {
+}
+
+.every {
      display: flex;
      flex-direction: row;
      align-items: center;
      padding: 0px;
      gap: 8px;
-   
+
      width: 324px;
      height: 24px;
-   }
-   
-   .icon {
+}
+
+.icon {
      width: 24px;
      height: 24px;
-   }
-   
-   /* .tick{
+}
+
+/* .tick{
    
    
    position: absolute;
@@ -1450,13 +1323,13 @@
    background: #3ED5DD;
    
    } */
-   
-   .basic {
+
+.basic {
      /* Everything in Basic */
-   
+
      width: 292px;
      height: 23px;
-   
+
      /* Main Text/P1 400 */
      font-family: "Poppins";
      font-style: normal;
@@ -1464,14 +1337,14 @@
      font-size: 16px;
      line-height: 23px;
      /* identical to box height, or 144% */
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .purchase {
+}
+
+.purchase {
      /* Button */
-   
+
      /* Auto layout */
      /* display: flex; */
      flex-direction: row;
@@ -1479,21 +1352,21 @@
      align-items: center;
      padding: 24px;
      gap: 8px;
-   
+
      width: 324px;
      height: 72px;
      margin-bottom: 264px;
      /* Colour Button */
      background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
      border-radius: 8px;
-   }
-   
-   .put {
+}
+
+.put {
      /* Purchase */
-   
+
      width: 276px;
      height: 24px;
-   
+
      /* Button */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1504,43 +1377,41 @@
      /* display: flex; */
      align-items: center;
      text-align: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .cardBasic {
+}
+
+.cardBasic {
      /* display: flex; */
      flex-direction: column;
      align-items: center;
      padding: 32px;
      gap: 24px;
-   
+
      position: absolute;
      width: 388px;
      height: 509px;
      left: 98px;
      top: 476px;
      /* Colour Card */
-     background: linear-gradient(
-       96.79deg,
-       #171717 -62.94%,
-       #323335 -62.92%,
-       rgba(90, 90, 90, 0) 54.42%,
-       #171717 174.24%
-     );
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
      /* Background Blur */
      backdrop-filter: blur(25px);
      /* Note: backdrop-filter has minimal browser support */
      border-radius: 16px;
-   }
-   
-   .bas {
+}
+
+.bas {
      /* BASIC */
-   
+
      width: 324px;
      height: 24px;
-   
+
      /* Headings/H6 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1551,33 +1422,33 @@
      /* display: flex; */
      align-items: center;
      text-align: center;
-   
+
      /* Accent 1 */
      color: #3ed5dd;
-   }
-   
-   .basicPrice {
+}
+
+.basicPrice {
      display: flex;
      flex-direction: row;
      justify-content: center;
      align-items: center;
      padding: 16px 24px;
      gap: 16px;
-   
+
      width: 324px;
      height: 80px;
-   
+
      /* BG Dark */
      background: #171717;
      border-radius: 50px;
-   }
-   
-   .dollar {
+}
+
+.dollar {
      /* $99 */
-   
+
      width: 64px;
      height: 48px;
-   
+
      /* Headings/H4 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1587,39 +1458,39 @@
      /* identical to box height, or 126% */
      display: flex;
      align-items: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .purch {
+}
+
+.purch {
      display: flex;
      flex-direction: row;
      justify-content: center;
      align-items: center;
      padding: 24px;
      gap: 8px;
-   
+
      width: 324px;
      height: 72px;
-   
+
      /* Colour Button */
      background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
      border-radius: 8px;
-   
+
      /* Inside auto layout */
      flex: none;
      order: 4;
      align-self: stretch;
      flex-grow: 0;
-   }
-   
-   .purchtext {
+}
+
+.purchtext {
      /* Purchase */
-   
+
      width: 276px;
      height: 24px;
-   
+
      /* Button */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1630,46 +1501,44 @@
      /* display: flex; */
      align-items: center;
      text-align: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .cardPreminium {
+}
+
+.cardPreminium {
      /* card */
-   
+
      display: flex;
      flex-direction: column;
      align-items: center;
      padding: 32px;
      gap: 24px;
-   
+
      position: absolute;
      width: 388px;
      height: 509px;
      left: 954px;
      top: 476px;
-   
+
      /* Colour Card */
-     background: linear-gradient(
-       96.79deg,
-       #171717 -62.94%,
-       #323335 -62.92%,
-       rgba(90, 90, 90, 0) 54.42%,
-       #171717 174.24%
-     );
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
      /* Background Blur */
      backdrop-filter: blur(25px);
      /* Note: backdrop-filter has minimal browser support */
      border-radius: 16px;
-   }
-   
-   .pre {
+}
+
+.pre {
      /* PREMIUM */
-   
+
      width: 324px;
      height: 24px;
-   
+
      /* Headings/H6 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1680,17 +1549,17 @@
      /* display: flex; */
      align-items: center;
      text-align: center;
-   
+
      /* Accent 1 */
      color: #3ed5dd;
-   }
-   
-   .elit {
+}
+
+.elit {
      /*  */
-   
+
      width: 324px;
      height: 69px;
-   
+
      /* Main Text/P1 400 */
      font-family: "Poppins";
      font-style: normal;
@@ -1701,14 +1570,14 @@
      display: flex;
      align-items: center;
      text-align: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .prePrice {
+}
+
+.prePrice {
      /* price */
-   
+
      /* Auto layout */
      display: flex;
      flex-direction: row;
@@ -1716,21 +1585,21 @@
      align-items: center;
      padding: 16px 24px;
      gap: 16px;
-   
+
      width: 324px;
      height: 80px;
-   
+
      /* BG Dark */
      background: #171717;
      border-radius: 50px;
-   }
-   
-   .preMon {
+}
+
+.preMon {
      /* $399 */
-   
+
      width: 86px;
      height: 48px;
-   
+
      /* Headings/H4 600 */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1740,14 +1609,14 @@
      /* identical to box height, or 126% */
      display: flex;
      align-items: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   .pr {
+}
+
+.pr {
      /* Button */
-   
+
      /* Auto layout */
      display: flex;
      flex-direction: row;
@@ -1755,21 +1624,21 @@
      align-items: center;
      padding: 24px;
      gap: 8px;
-   
+
      width: 324px;
      height: 72px;
-   
+
      /* Colour Button */
      background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
      border-radius: 8px;
-   }
-   
-   .pt {
+}
+
+.pt {
      /* Purchase */
-   
+
      width: 276px;
      height: 24px;
-   
+
      /* Button */
      font-family: "Titillium Web";
      font-style: normal;
@@ -1780,9 +1649,887 @@
      /* display: flex; */
      align-items: center;
      text-align: center;
-   
+
      /* White */
      color: #ffffff;
-   }
-   
-   
+}
+
+/* ******************************Testimonial********************* */
+.testmonials {
+     position: absolute;
+     width: 1440px;
+     height: 996px;
+     left: calc(50% - 1440px / 2);
+     top: 5278px;
+
+     /* BG Dark */
+     background: #171717;
+}
+
+.test1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+
+     position: absolute;
+     width: 761px;
+     height: 242px;
+     left: calc(50% - 761px / 2 - 0.5px);
+     top: 80px;
+}
+
+.testtext {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 761px;
+     height: 172px;
+}
+
+.twords {
+     /* TESTIMONIAL */
+
+     width: 761px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     text-align: center;
+
+     /* Accent 1 */
+     color: #3ed5dd;
+}
+
+.see {
+     /* see what others people are saying */
+
+     width: 761px;
+     height: 140px;
+
+     /* Headings/H2 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 67px;
+     line-height: 70px;
+     /* or 104% */
+     text-align: center;
+     text-transform: capitalize;
+
+     /* White */
+     color: #ffffff;
+}
+
+.quis {
+     width: 761px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+     padding-top: 40px;
+}
+
+.sammy {
+     /* display: flex; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 98px;
+     top: 402px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.nisi {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.mix {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 538px;
+     height: 80px;
+}
+
+.placeholder {
+     /* Image Placeholder */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.nameJob {
+     /* Name + Job */
+
+     /* display: flex; */
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+     width: 466px;
+     height: 80px;
+}
+
+.miss {
+     /* Miss Sammy Feeney */
+
+     width: 466px;
+     height: 32px;
+
+     /* Headings/H5 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.invest {
+     /* Investor Metrics Executive */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.star {
+     /* star */
+
+     /* display: flex; */
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 112px;
+     height: 16px;
+}
+
+.regina {
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 98px;
+     top: 679px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.sed {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.wessina {
+     /* Name + Job */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+
+
+}
+
+.placeholder2 {
+     /* Image Placeholder2 */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.nameJob2 {
+     /* Name + Job */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+}
+
+.nat {
+     /* Regina Weissnat */
+
+     width: 466px;
+     height: 32px;
+
+     /* Headings/H5 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.regional {
+     /* Regional Branding Consultant */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.star1 {
+     /* star */
+     /* display: flex; */
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 112px;
+     height: 16px;
+}
+
+.rose {
+     /* tx */
+
+     /* Auto layout */
+     /* display: flex; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 740px;
+     top: 402px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.euis {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.mante {
+     /* Mix */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 538px;
+     height: 80px;
+}
+
+.placeholder3 {
+     /* Image Placeholder3 */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.namejob3 {
+     /* Name + Job */
+     /* display: flex; */
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+}
+
+.mary {
+     /* Rosemary Mante */
+
+     width: 466px;
+     height: 32px;
+
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.agent {
+     /* Human Integration Agent */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.bode {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 740px;
+     top: 679px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+
+}
+
+
+.foot {
+     /* Footer */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 96px 98px;
+     gap: 8px;
+     isolation: isolate;
+
+     position: absolute;
+     width: 1440px;
+     height: 397px;
+     left: 0px;
+     top: 6274px;
+
+     /* BG Dark */
+     background: #171717;
+}
+
+.cyberEz {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 32px;
+
+     margin: 0 auto;
+     width: 271px;
+     height: 205px;
+}
+
+.cyberText {
+     /* CyberEz */
+
+     width: 131px;
+     height: 48px;
+
+     /* Headings/H4 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     /* identical to box height, or 126% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.totor {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet neque tortor. */
+
+     width: 271px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.sosmed {
+     /* Sosmed */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 32px;
+
+     width: 271px;
+     height: 40px;
+}
+
+.quicklink {
+     /* Quick Links */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 102px;
+     height: 204px;
+}
+
+.ql {
+     /* Quick Links */
+
+     width: 102px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.listLink {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 102px;
+     height: 140px;
+}
+
+.ours {
+     /* Our Service */
+
+     width: 102px;
+     height: 23px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.contact {
+     /* Contact Us */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 293px;
+     height: 165px;
+}
+
+.us {
+     /* Contact Us */
+
+     width: 293px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.txnum {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 24px;
+
+     width: 293px;
+     height: 101px;
+}
+
+.email {
+     /* Email */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+     /* hello@website.com */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.location {
+     /* Location */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+
+     /* 838 Cantt Sialkot, ENG */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.telp {
+     /* telp */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+
+     /* +02 5421234560 */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.newsletter {
+     /* Newsletter */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 432px;
+     height: 144px;
+}
+
+.letter {
+     /* Newsletter */
+
+     width: 119px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Signika";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.enName {
+     /* Enter name */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 8px 24px;
+     isolation: isolate;
+
+     width: 432px;
+     height: 80px;
+
+     /* White */
+     background: #ffffff;
+     border-radius: 24px;
+}
+
+.name {
+     /* Enter your email */
+
+     width: 130px;
+     height: 23px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* Paragraph */
+     color: #4a4a4a;
+
+     opacity: 0.5;
+}
+
+.bt {
+     /* Button */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+
+     /* position: absolute; */
+     width: 150px;
+     height: 64px;
+     left: 272px;
+     top: 8px;
+
+     margin-left: auto;
+
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 24px;
+}
+
+.bt:hover {
+     background-color: blue;
+}
+
+.subs {
+     /* Subscribe */
+
+     width: 102px;
+     height: 24px;
+
+     /* Button */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     /* identical to box height, or 100% */
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
